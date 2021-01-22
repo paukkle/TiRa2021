@@ -1,3 +1,6 @@
+import sys
+
+
 def count(n):
     if n <= 3:
         return 0
@@ -72,9 +75,8 @@ def count(n):
 
     return safespotit
 
-
 if __name__ == "__main__":
-    #print(count(3))  # 0
+    print(count(3))  # 0
     print(count(4))  # 40
-    print(count(5))
-    print(count(7))  # 184
+    print(count(5))  # 184
+    print(count(7))  # 1160
